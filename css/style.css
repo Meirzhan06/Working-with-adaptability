@@ -3,8 +3,8 @@
     padding: 0;
     border: 0;
     box-sizing: border-box;
-    font-family: 'Montserrat', sans-serif;
     font-family: 'Rubik', sans-serif;
+    font-family: 'Font Awesome 5 free', 'Montserrat';
 }
 html,body{
     height: 100%;
@@ -85,7 +85,7 @@ html,body{
     display: none;
 }
 .section1{
-    height: 651px;
+    height: 100vh;
     width: 100%;
     display: flex;
     align-items: center;
@@ -96,7 +96,10 @@ html,body{
     text-align: center;
     width: 75%;
 }
-.content1 p,h1{
+.content1 p{
+    margin: 40px 0 40px 0;
+}
+.content1 h1{
     margin: 40px 0 40px 0;
 }
 .content1 button{
@@ -105,7 +108,90 @@ html,body{
     border-radius: 3px;
     background-color: #000;
     color: #fff;
+    transition: all 0.3s;
+    cursor: pointer;
 }
+.content1 button:hover{
+    background-color: rgb(60, 60, 60);
+}
+.section2{
+    height: 100vh;
+    width: 100%;
+}
+.content2{
+    height: auto;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+.box-item{
+    height: auto;
+    flex-basis: 33%;
+    text-align: center;
+}
+.box-item p{
+    font-size: 16px;
+    margin-top: 15px;
+}
+.box-item i{
+    font-size:80px;
+    margin-bottom: 15px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 @media (max-width:767px){
     body.lock{
         overflow: hidden;
@@ -194,7 +280,55 @@ html,body{
         font-size: 24px;
         color: #000;
     }
+    .box-item{
+        flex-basis: 100%;
+        margin: 30px 0;
+    }
+
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 ::-webkit-scrollbar{
     width: 5px;
 }
