@@ -115,8 +115,9 @@ html,body{
     background-color: rgb(60, 60, 60);
 }
 .section2{
-    height: 100vh;
+    height: auto;
     width: 100%;
+    padding-bottom: 200px;
 }
 .content2{
     height: auto;
@@ -138,6 +139,11 @@ html,body{
 .box-item i{
     font-size:80px;
     margin-bottom: 15px;
+}
+.section3{
+    height: 100vh;
+    width: 100%;
+    background-color: yellow;
 }
 
 
