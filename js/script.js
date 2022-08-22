@@ -11,3 +11,10 @@ $(document).ready(function(){
         $('body').toggleClass('lock');
     })
 });
+$(document).ready(function(){
+    $('.slider').slick({
+        dots:true,
+        adaptiveHeight:true
+        
+    });
+});
