@@ -149,16 +149,72 @@ html,body{
 .content3{
     height: auto;
     min-width: 0;
+    padding-bottom: 150px;
 }
 .section3 img{
     height: 300px;
     width: 100%;
 }
+.section4{
+    height: auto;
+    padding: 50px 0;
+    width: 100%;
+}
+.content4{
+    height: 100%;
+    width: 100%;
+}
+.content4 p{
+    font-weight: 300;
+}
+.form-inputs{
+    height: auto;
+    width: 100%;;
+    display: flex;
+    justify-content: space-between;
+}
+.form-input{
+    width: 33%;
+    height: 100%;
+}
 
-
-
-
-
+.form-input input{
+    width: 100%;
+    height: 40px;
+    border: 2px solid #000;
+    outline: none;
+    padding-left: 5px;
+}
+.form-comment{
+    width: 100%;
+    height: auto;
+    padding: 30px 0;
+}
+.form-comment textarea{
+    min-width: 100%;
+    max-width: 100%;
+    height: 250px;
+    border: 2px solid #000;
+    outline: none;
+    padding: 5px 0 0 5px;
+}
+.form-button{
+    height: 50px;
+    width: 100%;
+    display: flex;
+    justify-content: end;
+}
+.form-button button{
+    height: 100%;
+    width: 220px;
+    background-color: #000;
+    color: #fff;
+    transition: all 0.3s;
+    cursor: pointer;
+}
+.form-button button:hover{
+    background-color: rgb(60, 60, 60);
+}
 
 
 
@@ -220,6 +276,16 @@ html,body{
     }
     .content2{
         padding-bottom: 90px;
+    }
+    .form-inputs{
+        display: block;
+    }
+    .form-input{
+        width: 100%;
+        margin-bottom: 15px;
+    }
+    .form-button button{
+        width: 100%;
     }
     
 }
@@ -315,7 +381,9 @@ html,body{
     .img-item{
         display: none;
     }
-
+    .content2{
+        padding-bottom: 90px;
+    }
 
 }
 
