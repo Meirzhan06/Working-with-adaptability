@@ -141,34 +141,21 @@ html,body{
     margin-bottom: 15px;
 }
 .section3{
-    height: auto;
+    height: 70vh;
     min-width: 0;
-    background-color: yellow;
     display: flex;
     align-items: center;
-    padding-bottom: 200px;
 }
 .content3{
     height: auto;
+    min-width: 0;
+}
+.section3 img{
+    height: 300px;
     width: 100%;
-    flex-wrap: wrap;
-    display: flex;
-    justify-content: center;
-    align-items: center;
 }
 
-.img-item i{
-    font-size: 120px;
-    font-style: normal;
-}
-.img-item{
-    margin-top: 100px;
-    flex-basis: 25%;
-    text-align: center;
-}
-.slider{
-    display: none;
-}
+
 
 
 
@@ -324,13 +311,7 @@ html,body{
     .img-item{
         display: none;
     }
-    .slider{
-        display: block;
-        font-size: 80px;
-        font-style: normal;
-    }
-    .slider-item{
-    }
+
 
 }
 
@@ -353,7 +334,7 @@ html,body{
 
 .slick-list{
     overflow: hidden;
-    height: 500px;
+    height: 300px;
 }
 .slick-track{
     display: flex;
